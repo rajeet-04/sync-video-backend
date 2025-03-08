@@ -6,8 +6,15 @@ const cors = require("cors");
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
-    cors: { origin: "*" },
+    cors: {
+        origin: "*", // Allow all origins
+        methods: ["GET", "POST"],
+        allowedHeaders: ["Content-Type"],
+        credentials: true,
+    },
+    transports: ["websocket", "polling"], // Ensure WebSocket + Polling
 });
+
 
 app.use(cors());
 
