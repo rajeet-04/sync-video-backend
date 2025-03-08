@@ -1,0 +1,33 @@
+{
+  "name": "sync-video-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeet-04/sync-video-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeet-04/sync-video-backend/issues"
+  },
+  "homepage": "https://github.com/rajeet-04/sync-video-backend#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
